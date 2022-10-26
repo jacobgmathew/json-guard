@@ -1,0 +1,40 @@
+{
+  "name": "json-guard",
+  "version": "1.1.0",
+  "description": "A small but powerful zero dependency library to describe and enforce Typescript types for JSON values and optionally perform validations and transformations.",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobgmathew/json-guard.git"
+  },
+  "keywords": [
+    "JSON",
+    "validate",
+    "type",
+    "check",
+    "Typescript",
+    "shape",
+    "enforce"
+  ],
+  "author": "Jacob Mathew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobgmathew/json-guard/issues"
+  },
+  "homepage": "https://github.com/jacobgmathew/json-guard#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "prettier": "^2.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0"
+  },
+  "files": [
+    "/dist/**/*"
+  ]
+}
